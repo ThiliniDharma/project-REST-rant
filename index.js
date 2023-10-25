@@ -7,13 +7,17 @@ const express = require('express')
 // Initialize your application by calling the function returned by the express module
 const app = express()
 
+app.set('view engine', 'jsx')
+app.engine('jsx', require('express-react-views').createEngine())
+
 //Declare routes
 //places index page
 app.use('/places', require('./controllers/places'))
 
 //Home page
 app.get('/', (req, res) => {
-res.send('Hello world!')
+//res.send('Hello world!')
+res.render('home')
 })
 
 //404 page
@@ -25,7 +29,6 @@ app.get('*', (req, res) => {
 // Listen to a port number defined by a local environment variable
 //app.listen(3000)
 app.listen(process.env.PORT)
-
 
 
 
