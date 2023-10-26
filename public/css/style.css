@@ -3,12 +3,17 @@ h1 {
     color: cornflowerblue;
     font-family: 'Courier New', Courier, monospace;
   }
+  h2 {
+    /* text-align: center; */
+    color:coral;
+    font-family: 'Courier New', Courier, monospace;
+  }
   img{
     height:25%;
     width:25%;
-    display: block;
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
   }
   a{
     font-size: x-large;
@@ -30,6 +35,16 @@ h1 {
   }
   p{
     font-size: x-large; 
-    text-align: center;
+    /* text-align: center; */
     display: block;
   }
+  p .text-center{
+    color:brown;
+    /* text-align: center;
+    display: block; */
+    font-size:small;
+  }
+  /* .col-sm-6
+{
+   display:flex;  
+} */
