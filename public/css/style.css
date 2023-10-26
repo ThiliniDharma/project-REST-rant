@@ -3,4 +3,27 @@ h1 {
     color: cornflowerblue;
     font-family: 'Courier New', Courier, monospace;
   }
-  
+  img{
+    height:25%;
+    width:25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a{
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .btn-primary{
+    margin-top: 2%;
+    font-size: x-large;
+    background-color: blue;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hyper{
+text-align: center;
+display: block;
+  }
