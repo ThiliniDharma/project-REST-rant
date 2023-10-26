@@ -9,8 +9,8 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
   }
   img{
-    height:25%;
-    width:25%;
+    height: 25%;;
+    width:auto;
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
@@ -30,21 +30,17 @@ h1 {
     margin-right: auto;
   }
   .hyper{
-    text-align: center;
+    /* text-align: center; */
     display: block;
   }
   p{
-    font-size: x-large; 
-    /* text-align: center; */
-    display: block;
+    font-size:large; 
+    text-align: right;
+    /* display: block; */
   }
   p .text-center{
     color:brown;
     /* text-align: center;
     display: block; */
-    font-size:small;
+   
   }
-  /* .col-sm-6
-{
-   display:flex;  
-} */
