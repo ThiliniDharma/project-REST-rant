@@ -13,6 +13,7 @@ h1 {
   a{
     font-size: x-large;
     font-weight: bold;
+    margin-top: auto;
   }
   .btn-primary{
     margin-top: 2%;
@@ -24,6 +25,11 @@ h1 {
     margin-right: auto;
   }
   .hyper{
-text-align: center;
-display: block;
+    text-align: center;
+    display: block;
+  }
+  p{
+    font-size: x-large; 
+    text-align: center;
+    display: block;
   }
