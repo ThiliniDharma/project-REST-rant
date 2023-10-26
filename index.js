@@ -7,8 +7,11 @@ const express = require('express')
 // Initialize your application by calling the function returned by the express module
 const app = express()
 
+//Express settings
+app.set('views',__dirname + '/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
+app.use(express.static('public'))
 
 //Declare routes
 //places index page
