@@ -12,6 +12,12 @@ function Def (html) {
             </head>
             <body>
                 {html.children}
+                <div class="content">
+    <div class="content-inside">
+   
+    </div>
+  </div>
+  <footer class="footer"> Rest-rand footer</footer>
             </body>
         </html>
     )

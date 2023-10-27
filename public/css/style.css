@@ -45,3 +45,22 @@ h1 {
     display: block; */
    
   }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .content {
+    min-height: 30%;
+  }
+  .content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .footer {
+    /* height: 50px;
+    margin-top: -50px; */
+    padding: 20px 0px;
+    background-color:#3926e7;
+    margin: 0 auto;
+    color: white;
+  }
