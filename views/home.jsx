@@ -8,7 +8,7 @@ function home () {
           <main>
               <h1>HOME</h1>
               <div>
-                <img src="/images/burger.jpg" alt="burger picture"/>
+                <img className="homeimg" src="/images/burger.jpg" alt="burger picture"/>
                 <div className="hyper">
         Photo by <a href="AUTHOR_LINK"> Amirali Mirhashemian</a> on <a href="UNSPLASH_LINK">Unsplash</a>
                 </div>

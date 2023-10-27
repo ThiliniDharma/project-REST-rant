@@ -1,3 +1,13 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+  }
+  
+  main {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+  }
 h1 {
     text-align: center;
     color: cornflowerblue;
@@ -9,11 +19,15 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
   }
   img{
-    height: 25%;;
+    height: 25%;
     width:auto;
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
+  }
+  .homeimg{
+    height: 400px;
+    width:auto;
   }
   a{
     font-size: x-large;
@@ -64,3 +78,27 @@ h1 {
     margin: 0 auto;
     color: white;
   }
+  nav {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: pink;
+    text-decoration: none;
+}
