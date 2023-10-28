@@ -10,13 +10,13 @@ body {
   }
 h1 {
     text-align: center;
-    color: cornflowerblue;
-    font-family: 'Courier New', Courier, monospace;
+    color:blue;
+    /* font-family: 'Courier New', Courier, monospace; */
   }
   h2 {
     /* text-align: center; */
-    color:coral;
-    font-family: 'Courier New', Courier, monospace;
+    color:cornflowerblue;
+    /* font-family: 'Courier New', Courier, monospace; */
   }
   img{
     height: 25%;
@@ -32,6 +32,10 @@ h1 {
   .errorimg{
     height: 400px;
     width:auto;
+  }
+  .img1
+  {
+    margin-top: 20px;
   }
   a{
     font-size: x-large;
