@@ -110,3 +110,7 @@ nav a:hover {
     color: pink;
     text-decoration: none;
 }
+button span{
+width: 1.8em;
+height: 1.8em;
+}

@@ -31,14 +31,14 @@ function show (data) {
             </div>
             <div className="col-sm-6">
             <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
-            Edit
+            Edit<span><i class="bi bi-pencil-square"></i></span>
             </a>
             </div> 
             <br></br> 
             <div>
             <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
             <button type="submit" className="btn btn-danger">
-            Delete
+            Delete<span><i class="bi bi-trash3"></i></span>
             </button>
             </form> 
             </div>    
