@@ -13,11 +13,13 @@ function Def (html) {
     crossorigin="anonymous"/>
 
 <script type="text/javascript">
-var newDate = new Date();
-newDate.setDate(newDate.getDate() + 1);
+{/* var newDate = new Date();
+newDate.setDate(newDate.getDate() + 1); */}
 
+const currentYear = new Date().getFullYear();
+{/* &copy; {currentYear} */}
 {/*  insert it via javascript */}
-document.getElementById('displayDate').innerHTML = (newDate.getMonth() + 1) + '/' + newDate.getDate() + '/' + newDate.getFullYear();
+{/* document.getElementById('displayDate').innerHTML = (newDate.getMonth() + 1) + '/' + newDate.getDate() + '/' + newDate.getFullYear(); */}
 
 </script>
 </head>
@@ -42,7 +44,7 @@ document.getElementById('displayDate').innerHTML = (newDate.getMonth() + 1) + '/
    
     </div>
   </div>
-  <footer class="footer"> <span id="displayDate">Copyright <i class="fa fa-copyright" aria-hidden="true"></i>by Thilini Dharmawardhana -Display date</span>
+  <footer class="footer"> <span id="displayDate">Copyright <i class="fa fa-copyright" aria-hidden="true"></i>by Thilini Dharmawardhana - </span>
   </footer>
 </body>
 </html>
