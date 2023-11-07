@@ -2,6 +2,7 @@
 const React = require('react')
 
 function Def (html) {
+  const currentYear = new Date().toLocaleDateString();
     return (
 <html>
 <head>
@@ -11,17 +12,6 @@ function Def (html) {
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
     crossorigin="anonymous"/>
-
-<script type="text/javascript">
-{/* var newDate = new Date();
-newDate.setDate(newDate.getDate() + 1); */}
-
-const currentYear = new Date().getFullYear();
-{/* &copy; {currentYear} */}
-{/*  insert it via javascript */}
-{/* document.getElementById('displayDate').innerHTML = (newDate.getMonth() + 1) + '/' + newDate.getDate() + '/' + newDate.getFullYear(); */}
-
-</script>
 </head>
 <body>
 <nav>
@@ -37,14 +27,13 @@ const currentYear = new Date().getFullYear();
     </li>
   </ul>
 </nav>
-
     {html.children}
-    <div class="content">
+  <div class="content">
     <div class="content-inside">
    
     </div>
   </div>
-  <footer class="footer"> <span id="displayDate">Copyright <i class="fa fa-copyright" aria-hidden="true"></i>by Thilini Dharmawardhana - </span>
+  <footer class="footer"> Copyright &copy; {currentYear} by Thilini Dharmawardhana
   </footer>
 </body>
 </html>
