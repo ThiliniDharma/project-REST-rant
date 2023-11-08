@@ -13,6 +13,7 @@ function Def (html) {
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
     crossorigin="anonymous"/>
 </head>
+<meta charset="UTF-8"></meta>
 <body>
 <nav>
   <ul>
