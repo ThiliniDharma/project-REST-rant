@@ -19,7 +19,7 @@ h1 {
     /* font-family: 'Courier New', Courier, monospace; */
   }
   img{
-    height: 15%;
+    height: 25%;
     width:auto;
     border-color: white;
     /* display: block;
@@ -36,7 +36,7 @@ h1 {
   }
   .img1
   {
-    height:18%;
+    height:25%;
     width:auto;
     margin-top: 20px;
   }
@@ -70,17 +70,17 @@ h1 {
     display: block; */
    
   }
-  html, body {
+  /* html, body {
     height: 100%;
     margin: 0;
-  }
-  .content {
+  } */
+  /* .content {
     min-height: 30%;
   }
   .content-inside {
     padding: 20px;
     padding-bottom: 50px;
-  }
+  } */
   .footer {
     /* height: 50px;
     margin-top: -50px; */

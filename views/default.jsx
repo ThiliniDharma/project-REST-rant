@@ -29,11 +29,11 @@ function Def (html) {
   </ul>
 </nav>
     {html.children}
-  <div class="content">
+  {/* <div class="content">
     <div class="content-inside">
    
     </div>
-  </div>
+  </div> */}
   <footer class="footer"> Copyright &copy; {currentYear} by Thilini Dharmawardhana
   </footer>
 </body>
