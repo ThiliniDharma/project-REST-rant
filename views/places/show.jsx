@@ -36,6 +36,9 @@ function show (data) {
             <stong>- {c.author}</stong>
           </h3>
           <h4>Rating: {c.stars}</h4>
+          <form method="POST" action={`/places/${data.place.id}/comment/${c.id}?_method=DELETE`}>
+          <input type="submit" className="btn btn-danger" value="Delete Comment" />
+        </form>
         </div>
       )
     })
@@ -69,10 +72,10 @@ function show (data) {
                     Serving {data.place.cuisines}
                 </h4>
                 <br></br>
-                <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
+                <a href={`/places/${data.place.id}/edit`} className="btn btn-warning"> 
               Edit<span><i class="fas fa-pencil-alt"></i></span>
               </a>
-              <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
+              <form method="POST" action={`/places/${data.place.id}?_method=DELETE`}> 
                 <button type="submit" className="btn btn-danger">
                 Delete<span><i class="fas fa-trash"></i></span>
                 </button>
@@ -132,4 +135,3 @@ function show (data) {
 }
 
 module.exports = show
-
